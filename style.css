@@ -1,0 +1,85 @@
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+body{
+    background-color: azure;
+}
+.bars-yellow,.bars-red,.bars-green,.bars-blue{
+    height:130px ;
+    width:130px ;
+    border-radius: 50%;      
+}
+.bars-yellow{
+    color:#13315c ;
+    border: 20px solid #13315c;
+    border-top-color:black ;
+    text-align: center;
+    animation: yello 3s ease-in 1s;
+}
+@keyframes yello {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bars-red{
+   color: chocolate;
+    border: 20px solid chocolate;
+    border-left-color:black ;
+    text-align: center;
+    animation: yelloo 3s ease-in-out 3s;
+}
+@keyframes yelloo {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bars-green{
+    color: darkred;
+    border: 20px solid darkred ;
+    border-bottom-color:black ;
+    text-align: center;
+    animation: yellooo 3s ease 6s;
+}
+@keyframes yellooo {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.bars-blue{
+    color: seagreen;
+    border: 20px solid seagreen;
+    border-right-color:black ;
+    text-align: center;
+    animation: yelloooo 3s ease-out 9s;
+}
+@keyframes yelloooo {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.cv{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
